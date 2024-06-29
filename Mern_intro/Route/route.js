@@ -6,7 +6,8 @@ route.get('/hello', (req, res) => {
 });
 
 route.get('/welcome', (req, res) => {
-    res.send('Welcome to the server');
+    res.send('Welcome to the server. This is a new route');
 });
+
 
 module.exports = route; //exporting the route module
