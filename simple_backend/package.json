@@ -1,0 +1,16 @@
+{
+  "name": "simple_backend",
+  "version": "1.0.0",
+  "description": "Simple backend for a book management system using MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Lumin De Silva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
+  }
+}
