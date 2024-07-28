@@ -3,9 +3,13 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const Books = require('./routes/books');
+const helmet = require('helmet');
 
 // app instance
 const app = express();
+
+//Security
+app.use(helmet());
 
 //Middleware
 app.use(bodyParser.json());
