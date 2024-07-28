@@ -1,0 +1,39 @@
+.heading{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #2d0975;
+}
+
+.list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list li{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #2d0975;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    background-color: #d3c7ec;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list .li :hover{
+    background-color: #43189b;
+    color: rgb(156, 31, 31);
+    border: 1px solid #43189b;
+}
+
+.second{
+    margin: 20px;
+    border: 1px solid #2d0975;
+    padding: 10px;
+    border-color: #d3c7ec;
+}
+
